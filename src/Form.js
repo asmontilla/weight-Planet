@@ -16,14 +16,14 @@ class Form extends Component {
         <label>
         <select value={this.props.valorSelect}
           onChange={this.props.valueSelec}>
-          <option value="mercurio">Mercurio</option>
-          <option value="venus">Venus</option>
-          <option value="marte">Marte</option>
-          <option value="jupiter">Jupiter</option>
-          <option value="saturno">Saturno</option>
-          <option value="urano">Urano</option>
-          <option value="neptuno">Neptuno</option>
-          <option value="pluton">Plutón</option>
+          <option value="Mercurio">Mercurio</option>
+          <option value="Venus">Venus</option>
+          <option value="Marte">Marte</option>
+          <option value="Jupiter">Jupiter</option>
+          <option value="Saturno">Saturno</option>
+          <option value="Urano">Urano</option>
+          <option value="Neptuno">Neptuno</option>
+          <option value="Pluton">Plutón</option>
         </select>
         </label>
 

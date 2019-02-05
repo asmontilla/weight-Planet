@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Form from './Form.js';
 import Resultado from './Resultado.js';
@@ -29,14 +28,14 @@ class App extends Component {
 
   calcPeso(){
     let elResultado;
-    if (this.state.valueDelSelect === 'mercurio') elResultado = this.state.valueDelInput *0.0387
-    else if (this.state.valueDelSelect === 'venus') elResultado = this.state.valueDelInput *0.9051
-    else if (this.state.valueDelSelect === 'marte') elResultado = this.state.valueDelInput *0.3775
-    else if (this.state.valueDelSelect=== 'jupiter') elResultado = this.state.valueDelInput *2.5306
-    else if (this.state.valueDelSelect === 'saturno') elResultado = this.state.valueDelInput *1.0653
-    else if (this.state.valueDelSelect === 'urano') elResultado = this.state.valueDelInput *0.8877
-    else if (this.state.valueDelSelect === 'neptuno') elResultado = this.state.valueDelInput *1.1377
-    else if (this.state.valueDelSelect === 'pluton') elResultado = this.state.valueDelInput *0.0632
+    if (this.state.valueDelSelect === 'Mercurio') elResultado = this.state.valueDelInput *0.0387
+    else if (this.state.valueDelSelect === 'Venus') elResultado = this.state.valueDelInput *0.9051
+    else if (this.state.valueDelSelect === 'Marte') elResultado = this.state.valueDelInput *0.3775
+    else if (this.state.valueDelSelect=== 'Jupiter') elResultado = this.state.valueDelInput *2.5306
+    else if (this.state.valueDelSelect === 'Saturno') elResultado = this.state.valueDelInput *1.0653
+    else if (this.state.valueDelSelect === 'Urano') elResultado = this.state.valueDelInput *0.8877
+    else if (this.state.valueDelSelect === 'Neptuno') elResultado = this.state.valueDelInput *1.1377
+    else if (this.state.valueDelSelect === 'Pluton') elResultado = this.state.valueDelInput *0.0632
 
     this.setState({
       resultado:elResultado
